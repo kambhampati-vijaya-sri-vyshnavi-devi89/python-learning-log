@@ -95,11 +95,16 @@ print("X-intercept:", x_intercept)
 #    Slope formula: (y2 - y1) / (x2 - x1)
 # =========================================
 import math
-x1,x2,y1,y2=2,2,6,10
-slope=((y2-y1)/(x2-x1))
-print("slope:",slope)
-euclidean_distance=math.sqrt(((x2-x1)**2)+((y2-y1)**2))
-print('euclidean distance is:',euclidean_distance)
+
+x1, y1 = 2, 2
+x2, y2 = 6, 10
+
+slope = (y2 - y1) / (x2 - x1)
+print("slope:", slope)
+
+euclidean_distance = math.sqrt((x2 - x1)**2 + (y2 - y1)**2)
+print("euclidean distance is:", euclidean_distance)
+
 
 
 
