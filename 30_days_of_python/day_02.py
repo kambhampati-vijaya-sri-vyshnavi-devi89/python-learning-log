@@ -47,7 +47,7 @@ Take radius as user input and calculate the area.
 '''
 
 def area_of_circle(radius_of_circle):
-    print("area of circle is :",3.14*radius_of_circle)
+    print("area of circle is :",3.14*radius_of_circle**2)
 
 def circumference_of_circle(radius_of_circle):
     print("Circumference of circle is :",2*3.14*radius_of_circle)

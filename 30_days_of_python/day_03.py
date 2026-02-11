@@ -26,7 +26,7 @@ complex_number=2+5j
 # =========================================
 base=int(input("enter the base of the triangle:"))
 height=int(input("enter the height of the triangle:"))
-print("The area of the triangle is",base*height)
+print("The area of the triangle is",0.5*base*height)
 
 
 # =========================================
@@ -63,7 +63,7 @@ print("the perimeter of the rectangle is :",2*(rec_length+rec_width))
 #    Use pi = 3.14
 # =========================================
 radius_of_circle=int(input('enter the radius'))
-print('Area of the circle:',3.14*radius_of_circle)
+print('Area of the circle:',3.14*radius_of_circle**2)
 print('circumference of the circle:',2*3.14*radius_of_circle)
 
 # =========================================
@@ -112,7 +112,7 @@ print("euclidean distance is:", euclidean_distance)
 # =========================================
 # 10. Compare the slopes in task 8 and task 9
 # =========================================
-print('comparison of slopes in task8 and task9',m is slope)
+print('comparison of slopes in task8 and task9',m == slope)
 
 # =========================================
 # 11. Calculate the value of y (y = x^2 + 6x + 9). 
@@ -138,7 +138,7 @@ for x in range(-11,10):
 
 print(len('python'))
 print(len('dragon'))
-print("falsy comparison statement:",len('python')is not len('dragon'))
+print("falsy comparison statement:",len('python')!= len('dragon'))
 
 
 # =========================================
