@@ -266,3 +266,6 @@ print('You have lived for',seconds,'seconds')
 # 5 1 5 25 125
 # =========================================
 
+
+for i in range(1,6,1):
+    print(i,1,i,i**2,i**3)
